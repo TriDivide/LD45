@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player {
-
+public struct Player {
+    public int Gold { get; set; }
+    public int Lumber { get; set; }
+    public int Metal { get; set; }
 }
 
